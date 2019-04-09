@@ -1,0 +1,31 @@
+.bg_black {
+  background-color: black;
+}
+
+.border-none {
+  border: none;
+}
+
+.btn-oval {
+  width: 100%;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.btn-white {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.btn-black {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+.p-0 {
+  padding: 0;
+}
