@@ -1,11 +1,15 @@
-
-
 .bg_black {
+  position: fixed;
   background-color: black;
+  width: 15%;
+  padding: 2%;
+  margin:0;
 }
 
 .container  {
+  position: relative;
   width: 100%;
+  height: 1500px;
   padding: 0;
   margin: 0;
 }
@@ -19,18 +23,20 @@
   border-color: white;
   border-radius: 10px;
   margin: 3px;
+  font-size: 1.2vw;
 }
 
-.navbar-nav>li {
-  float: none;
-}
-
-.white {
-  color: white !important;
+.spotify {
+  color: white;
+  margin-top: 12px;
+  margin-bottom: 20px;
 }
 
 .vh-100 {
  height: 100vh;
+}
+.center {
+  text-align: left;
 }
 
 .btn-white {
@@ -39,19 +45,53 @@
   border-color: white;
 }
 
-.btn-oval:hover {
- width: 110%;
- height: 110%;
-}
-
 .btn-black {
   color: white;
   background-color: transparent;
   border-color: white;
 }
 
-.navbar-nav>li>a:hover {
-  color: white !important;
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-40 {
+  padding-bottom: 40px;
+}
+
+.f-30 {
+  font-size: 30px;
+}
+
+ul li a {
+  padding-top: 3px;
+  font-size: 1vw;
+}
+
+ #sinistra {
+   position: fixed;
+ }
+
+#sinistra>ul>li>a {
+  color: #b3b3b3 ;
+}
+
+#sinistra>ul {
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0;
+}
+
+#sinistra>a {
+  color: white ;
+  font-size: 1.5vw
+}
+
+#sinistra>ul>li>a:hover,
+#sinistra>a:hover  {
+  color: white;
+  text-decoration: none;
 }
 
 .p-0 {
@@ -62,47 +102,111 @@
   margin: 0;
 }
 
-.blue {
-  height: 1000px;
-  background-color: blue;
+.m-15 {
+  margin-left: 15%;
 }
 
-.container-flex {
+.container-flex-1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+  padding: 0 10px;
 }
 
 .bg-grad {
-  background-image: linear-gradient(to bottom right, #29515a, #282828)
+  background-image: linear-gradient(to bottom right, #29515a, #282828);
+  height: 1500px;
 }
 
-nav>.menu>ul>li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-nav>.menu>.items>a {
+.bar1 {
  text-transform: uppercase;
  color: #b3b3b3;
 }
 
-nav>.menu>.items>a:hover {
+.bar1:hover {
  color: white;
  text-decoration: none;
 }
 
 .menu{
-  height: 50px;
+  height: 10%;
   display: flex;
-    align-items: center;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.items{
+.items {
   padding: 0 15px;
+}
+
+.album {
+  padding: 15px 15px 0 15px;
+}
+
+.container-flex-2 {
+  display: flex;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.container-flex-3 {
+  display: flex;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  padding: 0 35px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+p,
+h1 {
+ color: white;
+h1
+}
+
+p {
+text-align: center;
+}
+
+.bg-darkgrey {
+  background-color: #282828;
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.controller {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.play ul li {
+display: inline-block;
+}
+
+.volume i,
+.play ul li a i {
+  color: #b3b3b3;
+}
+
+.play ul li a i {
+  padding-left: 5px;
+}
+
+.volume {
+  padding-right: 20%;
+}
+
+.play {
+  padding-right: 30%;
 }
